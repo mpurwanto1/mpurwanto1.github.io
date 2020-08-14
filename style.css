@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&family=Titillium+Web&display=swap');
+
+
+
+#banner {
+	background-color: #00b7c2;
+	margin: 0;
+}
+
+body {
+	font-family: Teko, sans-serif:
+}
+
+.form-head{
+	font-family: 'Teko', sans-serif;
+	font-weight: bold;
+}
+
+form{
+	padding: 0.5;
+}
+
+#form-row {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.row{
+	margin: 1rem;
+	margin-top: 0.5;
+	margin-bottom: 0.5;
+}
+
+#banner-row{
+	margin: 0;
+}
+
+.pic{
+	width: 100%;
+	height: auto;
+}
+
+#btn-container{
+	flex-direction: column;
+	position: absolute;
+	top: 13%;
+}
+
+.promo-btn{
+	margin-top: 10px;
+}
+
+#btn-col{
+	position: static;
+}
+
+
+.menu-head>h2{
+	display: inline-block;
+	padding: 0.5rem;
+}
+
+.card-template1{
+	flex-direction: row;
+}
+
+.card-img-left{
+	width: 25%;
+}
+
+.card-template1>.card-body{
+	width: 75%;
+}
+
+#form-col{
+	position: absolute;
+	z-index: 10;
+	top: 15%;
+	background-color: white;
+	padding: 15px;
+}
+
+@media(max-width: 576px){
+	#btn-container{
+		position: relative;
+		width: 100%;
+		justify-content: space-evenly;
+		flex-direction: row;
+		bottom: 80%;
+		top: unset;
+	}
+
+
+}
+
+@media(max-width: 768px){
+	#form-col{
+		position: static;
+	}
+}
